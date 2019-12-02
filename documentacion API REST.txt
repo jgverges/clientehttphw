@@ -1,0 +1,32 @@
+GET https://pedi-gest.herokuapp.com/api/camareros
+GET https://pedi-gest.herokuapp.com/api/camareros/100
+
+GET https://pedi-gest.herokuapp.com/api/productos
+GET https://pedi-gest.herokuapp.com/api/productos/7
+
+GET https://pedi-gest.herokuapp.com/api/clientes
+
+
+Documentación de la API REST
+============================
+
+https://pedi-gest.herokuapp.com/api/swagger-ui.html
+
+
+1.- Hemos de crear el modelo! producto.ts
+
+fechaAlta:Date;
+descatalogado:boolean:
+
+2.- Crear servicio ProductoService (a imagen y semejanza de los anteriores)
+
+3.- Ojo! importamos ProductoServices en el AppModule (como provider)
+
+4.- incluir el servicio en el constructor del componente de pruebas.
+
+5.- en el ngOnInit() del componente donde hacemos pruebas obtener el observable y subscribirnos
+
+en la función callback decidiremos qué con los datos. 
+
+
+

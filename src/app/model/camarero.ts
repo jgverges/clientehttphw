@@ -1,4 +1,4 @@
 export class Camarero {
-    codogo:number;
+    codigo:number;
     nombre:string;
 }
